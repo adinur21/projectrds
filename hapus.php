@@ -11,7 +11,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
     }
 
 // sql to delete a record
-$sql = "DELETE FROM students where nomor=5";
+$sql = "DELETE FROM students where nomor=1";
 if ($conn->query($sql) === TRUE) {
   //echo "Record deleted successfully";
   echo "<script>alert('Record deleted successfully');location.href='index.php'</script>";
